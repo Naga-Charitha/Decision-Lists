@@ -17,11 +17,19 @@ Also wrote a utility program called scorer.py which will take as input your sens
 
 
 The scorer program should be run as follows:
+
 $ python scorer.py my-line-answers.txt line-answers.txt
+
 A script file called decision-list-log.txt that was created as follows:
+
 $ script decision-list-log.txt
+
 $ python decision-list.py line-train.xml line-test.xml my-decision-list.txt > my-line-answers.txt
+
 $ head -50 my-decision-list.txt
+
 $ head -10 my-line-answers.txt
+
 $ python scorer.py my-line-answers.txt line-answers.txt
+
 $ exit
